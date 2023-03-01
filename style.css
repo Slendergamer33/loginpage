@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -14,8 +15,8 @@ body{
 }
 
 .sign-up-card{
-    background-color: #222;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     width: 350px;
     padding: 30px 20px;
     border-radius: 10px;
@@ -41,14 +42,14 @@ body{
     display: block;
     width: 100%;
     padding: 10px 20px;
-    border: 2px solid #1B98F5;
+    border: 2px solid #464646;
     border-radius: 5px;
     transition: 0.4s ease;
 }
 
 .input-div input:focus{
     outline: none;
-    border: 2px solid #2827CC;
+    border: 2px solid #272727;
 }
 
 .btn{
@@ -57,21 +58,22 @@ body{
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: linear-gradient(45deg, #1B98F5, #23C4ED);
+    background: linear-gradient(45deg, #ffffff, #ffffff);
     font-size: 18px;
     border-radius: 5px;
     margin-bottom: 10px;
+    border: 2px solid #464646;
     transition: 0.4s ease;
 }
 
 .btn:hover{
-    background: linear-gradient(45deg, #383CC1, #23C4ED);
+    background: linear-gradient(45deg, #d6d4d4, #a2a2a2);
     cursor: pointer;
 }
 
 p a{
     margin-left: 5px;
     font-weight: 600;
-    color: #fff;
+    color: #000000;
     font-size: 18px;
 }
